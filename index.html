@@ -9,10 +9,8 @@
     <link rel="stylesheet" href="./estilos/style.css">
     <title>Document</title>
     
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script>
-        ScrollReveal({ reset: true });
-    </script>
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 
 <body>
@@ -32,7 +30,7 @@
         </ul>
     </nav>
 
-    <section id="section-1" class="section section__1">
+    <section id="section-1" class="section section__1" data-aos="fade-in">
         <h2>Mi proyecto de vida</h2>
     </section>
 
@@ -72,6 +70,11 @@
         <h2>AGRADECIMIENTO</h2>
     </section>
 
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
